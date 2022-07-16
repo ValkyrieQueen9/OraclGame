@@ -1,0 +1,319 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.5f1 (40eb3a945986) revision 4254522'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'en' Physical Memory: 16334 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\Unity 2021.3.5f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Anna/Documents/GAMES/OraclGame/OraclGame
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+52644
+Successfully changed project path to: C:/Users/Anna/Documents/GAMES/OraclGame/OraclGame
+C:/Users/Anna/Documents/GAMES/OraclGame/OraclGame
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 74.12 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.5f1 (40eb3a945986)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/Unity 2021.3.5f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Anna/Documents/GAMES/OraclGame/OraclGame/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon RX 5600 XT (ID=0x731f)
+    Vendor:   ATI
+    VRAM:     6103 MB
+    Driver:   30.0.13023.4001
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/Unity 2021.3.5f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/Unity 2021.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/Unity 2021.3.5f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56368
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/Unity 2021.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.008412 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 76.26 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.580 seconds
+Domain Reload Profiling:
+	ReloadAssembly (580ms)
+		BeginReloadAssembly (70ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (402ms)
+			LoadAssemblies (67ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (90ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (23ms)
+			SetupLoadedEditorAssemblies (245ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (76ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (122ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.006307 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Anna\Documents\GAMES\OraclGame\OraclGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Anna\Documents\GAMES\OraclGame\OraclGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.955 seconds
+Domain Reload Profiling:
+	ReloadAssembly (955ms)
+		BeginReloadAssembly (97ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (747ms)
+			LoadAssemblies (76ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (242ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (335ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (93ms)
+				ProcessInitializeOnLoadAttributes (199ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3368 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (111.2 KB). Loaded Objects now: 3843.
+Memory consumption went from 135.0 MB to 134.9 MB.
+Total: 2.761800 ms (FindLiveObjects: 0.289300 ms CreateObjectMapping: 0.086300 ms MarkObjects: 2.293700 ms  DeleteObjects: 0.091200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 211271.004590 seconds.
+  path: Assets/Materials
+  artifactKey: Guid(25aa6b832009da24b83cac7ef80defaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials using Guid(25aa6b832009da24b83cac7ef80defaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd29f0883eb12bbc46f37215f0fc0f4cf') in 0.006857 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 141.120838 seconds.
+  path: Assets/Enviroment Objs
+  artifactKey: Guid(e472a46a9d8dc5e4da6318d0339c57c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviroment Objs using Guid(e472a46a9d8dc5e4da6318d0339c57c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b3b751b637ad436aa483b51b908b181') in 0.001488 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.985827 seconds.
+  path: Assets/Enviroment Objs/mayan-temple
+  artifactKey: Guid(ce24ce4189012a64da1816da70cc9307) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviroment Objs/mayan-temple using Guid(ce24ce4189012a64da1816da70cc9307) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8510817a9ff8e8a6ccc2d3a1a233ac91') in 0.001653 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.042145 seconds.
+  path: Assets/Enviroment Objs/mayan-temple/Textures
+  artifactKey: Guid(0fcbe2611d7d7734fb9691d76518cde4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviroment Objs/mayan-temple/Textures using Guid(0fcbe2611d7d7734fb9691d76518cde4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '397753ec9656827f056e860deefce729') in 0.001459 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.056079 seconds.
+  path: Assets/Enviroment Objs/mayan-temple/Textures/dungeon_set_02_atlas_01.tga
+  artifactKey: Guid(727fb1057f728004ea78d6a7e0c8ca1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviroment Objs/mayan-temple/Textures/dungeon_set_02_atlas_01.tga using Guid(727fb1057f728004ea78d6a7e0c8ca1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b3b6e5c6e327d8949c58cb3672d4ebe') in 0.073495 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Enviroment Objs/mayan-temple/Textures/dungeon_set_02_floor_atlas.tga
+  artifactKey: Guid(02a5d8af50f8c814f8eaf281e3a7dd29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviroment Objs/mayan-temple/Textures/dungeon_set_02_floor_atlas.tga using Guid(02a5d8af50f8c814f8eaf281e3a7dd29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7902b47cada8400493ae990368a45ac3') in 0.012264 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Enviroment Objs/mayan-temple/Textures/dungeon_set_02_atlas_alpha.tga
+  artifactKey: Guid(0cc08cc407092584684a0febf47be56e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviroment Objs/mayan-temple/Textures/dungeon_set_02_atlas_alpha.tga using Guid(0cc08cc407092584684a0febf47be56e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9423f64ef85fd166b6edefac080f9cb') in 0.009208 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Enviroment Objs/mayan-temple/Textures/floor09.tga
+  artifactKey: Guid(c9cce67f9ad59c44c8e1fc7d0aa9f3d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviroment Objs/mayan-temple/Textures/floor09.tga using Guid(c9cce67f9ad59c44c8e1fc7d0aa9f3d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a9871b7d133f542ecb6adc93838e39d') in 0.008656 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Enviroment Objs/mayan-temple/Textures/floor_tile_02.tga
+  artifactKey: Guid(94e8ff1037c14c048bc53cf2a34339fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviroment Objs/mayan-temple/Textures/floor_tile_02.tga using Guid(94e8ff1037c14c048bc53cf2a34339fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '561de1fad02310ae71b0344f2151f889') in 0.008070 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Enviroment Objs/mayan-temple/Textures/floor10.tga
+  artifactKey: Guid(72ef49e7290215049921d71e18e38726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviroment Objs/mayan-temple/Textures/floor10.tga using Guid(72ef49e7290215049921d71e18e38726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0b3ca2828a1a78c1efc54d04ae5b59a') in 0.008446 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.693674 seconds.
+  path: Assets/Enviroment Objs/mayan-temple/Models
+  artifactKey: Guid(0279414417624e142900d8810f3938a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviroment Objs/mayan-temple/Models using Guid(0279414417624e142900d8810f3938a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05e68af91217f432ee4d80c96aea28b0') in 0.001654 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.721702 seconds.
+  path: Assets/Enviroment Objs/mayan-temple/Models/Mobile
+  artifactKey: Guid(678a85ca1bcb49c4691fcf288b3f4778) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviroment Objs/mayan-temple/Models/Mobile using Guid(678a85ca1bcb49c4691fcf288b3f4778) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23d958843bd430a05fcd315f716d981d') in 0.001598 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.514246 seconds.
+  path: Assets/Enviroment Objs/mayan-temple/Models/Standard/door_01.fbx
+  artifactKey: Guid(39f45e93851e7b4418d976aac4e44165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviroment Objs/mayan-temple/Models/Standard/door_01.fbx using Guid(39f45e93851e7b4418d976aac4e44165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc2b63f6331ab2c7dd6d685b15bdd260') in 0.215888 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Enviroment Objs/mayan-temple/Models/Standard/pillar_02.fbx
+  artifactKey: Guid(cf176f9ca4db7eb418b3f89d3b0eabcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviroment Objs/mayan-temple/Models/Standard/pillar_02.fbx using Guid(cf176f9ca4db7eb418b3f89d3b0eabcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14438cd5227fa5e2e9696ed6335db13c') in 0.018820 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Enviroment Objs/mayan-temple/Models/Standard/stair_top_2_wide.fbx
+  artifactKey: Guid(5afc57d38c5e85140850032f1ef317e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviroment Objs/mayan-temple/Models/Standard/stair_top_2_wide.fbx using Guid(5afc57d38c5e85140850032f1ef317e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9360b716c6bf7d23b69e2f5a48deb504') in 0.019857 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Enviroment Objs/mayan-temple/Models/Standard/floor_divider_hub.fbx
+  artifactKey: Guid(2210e2cd4f0ba7643936c2f4e1ad95a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviroment Objs/mayan-temple/Models/Standard/floor_divider_hub.fbx using Guid(2210e2cd4f0ba7643936c2f4e1ad95a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fb08a4fc5f94bbac461e294f5bdd1b2') in 0.019523 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Enviroment Objs/mayan-temple/Models/Standard/wall_02.fbx
+  artifactKey: Guid(3448edb1bf4dc3747882d37f0e148140) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviroment Objs/mayan-temple/Models/Standard/wall_02.fbx using Guid(3448edb1bf4dc3747882d37f0e148140) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cddd19727c275e4cfa8b89f7102c086b') in 0.017963 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Enviroment Objs/mayan-temple/Models/Standard/vines_01.fbx
+  artifactKey: Guid(5bda029d8c046d742954cc06c987c5ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviroment Objs/mayan-temple/Models/Standard/vines_01.fbx using Guid(5bda029d8c046d742954cc06c987c5ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af6593a2ede6df2db1dd1dc178e98924') in 0.223375 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.810060 seconds.
+  path: Assets/Enviroment Objs/mayan-temple/Models/Mobile/mobile_wall_corner_convex.fbx
+  artifactKey: Guid(b5c163b2b32ad1341b626173c6c4b7d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviroment Objs/mayan-temple/Models/Mobile/mobile_wall_corner_convex.fbx using Guid(b5c163b2b32ad1341b626173c6c4b7d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f44dd910c40de4439b861652c237dc00') in 0.022456 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Enviroment Objs/mayan-temple/Models/Mobile/mobile_wall_corner_concave.fbx
+  artifactKey: Guid(15179716e8a97964e9dcc3705806f88a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviroment Objs/mayan-temple/Models/Mobile/mobile_wall_corner_concave.fbx using Guid(15179716e8a97964e9dcc3705806f88a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec8c2dc871bd79046ec3e934a770d468') in 0.019890 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Enviroment Objs/mayan-temple/Models/Mobile/mobile_stair_short_2_wide.fbx
+  artifactKey: Guid(870d09ff2f8f23841b9c98bc0dfe345c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviroment Objs/mayan-temple/Models/Mobile/mobile_stair_short_2_wide.fbx using Guid(870d09ff2f8f23841b9c98bc0dfe345c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a643c639ee9ab488855b81338fc9fc9a') in 0.022636 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Enviroment Objs/mayan-temple/Models/Mobile/mobile_floor_divider_02.fbx
+  artifactKey: Guid(3d214032887918a4daed375cda6798dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviroment Objs/mayan-temple/Models/Mobile/mobile_floor_divider_02.fbx using Guid(3d214032887918a4daed375cda6798dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7a9b9ddf2ee8a3fb107961e0efe152d') in 0.018302 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Enviroment Objs/mayan-temple/Models/Mobile/mobile_pyramid_small.fbx
+  artifactKey: Guid(cb1e0642ed5dc07468bee90a8ddb5092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviroment Objs/mayan-temple/Models/Mobile/mobile_pyramid_small.fbx using Guid(cb1e0642ed5dc07468bee90a8ddb5092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce56012a6be0dba8449018c605295115') in 0.019657 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.262547 seconds.
+  path: Assets/Enviroment Objs/mayan-temple/Models/Mobile/mobile_vines_01.fbx
+  artifactKey: Guid(1bc33b35372ffd04d83c9a81860bb658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviroment Objs/mayan-temple/Models/Mobile/mobile_vines_01.fbx using Guid(1bc33b35372ffd04d83c9a81860bb658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02a00f03f8e4f1754c67792eec5cf6aa') in 0.017399 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.000624 seconds.
+  path: Assets/Materials/Concrete Wall/ConcreteWall_Metallic.tga
+  artifactKey: Guid(ed27786ef300bf849973a6958c15a9d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Concrete Wall/ConcreteWall_Metallic.tga using Guid(ed27786ef300bf849973a6958c15a9d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '211b4b3a6e36f6d59dbee55a3c54f38d') in 0.018791 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.514720 seconds.
+  path: Assets/Materials/Asphalt/Asphalt_Metallic.tga
+  artifactKey: Guid(c6ca3c60c6c6a1e43a3bdb8b743ae61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Asphalt/Asphalt_Metallic.tga using Guid(c6ca3c60c6c6a1e43a3bdb8b743ae61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d053e12f69c0a773e8de66b86511fb7') in 0.010355 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
