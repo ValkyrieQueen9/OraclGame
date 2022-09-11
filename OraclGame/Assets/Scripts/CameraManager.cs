@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class CameraManager : MonoBehaviour
 {
-
     public Transform camTarget;
     public float smoothSpeed = 0.125f;
 
